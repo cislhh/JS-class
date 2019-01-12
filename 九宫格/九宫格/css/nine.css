@@ -1,0 +1,12 @@
+
+#box{
+	width: 100%;
+}
+.box_img{
+	float: left;
+	background-color: orange;
+	width: 31.3%;
+	padding-top: 31.3%;
+	margin: 1%;
+	border-radius: 10px;
+}
