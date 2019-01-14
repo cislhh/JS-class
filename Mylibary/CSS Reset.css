@@ -1,0 +1,80 @@
+/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
+html {
+	font-family: sans-serif;
+	line-height: 1rem;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+	font-size: 1.6rem;
+  	font-size: 62.5%;
+  	color: #000;
+    background: #fff; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  line-height: 1.4;
+  background-color: #fff;
+  width: 100%;
+  color: #333;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: 500; 
+}
+p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+a {
+  color: #000000;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+input,textarea,select{
+	font-size: 100%;
+	font-family: inherit;
+}
+ul, ol{
+  list-style: none;
+  /*list-style: inside;*/
+ /*text-align: center;*/
+ /*因为ul的list-style默认样式是和li标签成分离状的，把list-style设置为inside,就可以改变为在li标签内。*/
+  padding: 0;
+  margin: 0;
+}
+button:hover {
+  outline: none;
+}
+button {
+	border: none;
+}
+button:focus {
+	outline: none
+}
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible
+}
+img{
+	border: none;
+	outline: none;
+}
+/*清除浮动*/
+.clear{clear: both;}
+ 
+/*清除浮动--推荐使用*/
+.clearfix:before,.clearfix:after{content: '';display: table;}
+.clearfix:after{clear: both;}

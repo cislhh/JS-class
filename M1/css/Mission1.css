@@ -1,0 +1,37 @@
+
+.box{
+	background-color: #F4A460;
+	width: 25%;
+	padding-top: 25%;
+	margin: 1%;
+	border-radius: 10px;
+	
+}
+.action button{
+	background-color: orange;
+	border-radius: 10px;
+	border: 1px solid orange;
+	color: white;
+	width: 80%;
+	height: 3rem;
+	outline: none;
+}
+.action:hover button{
+	color: orange;
+	background-color: white;
+	outline: none;
+}
+.stop button{
+	background-color: orange;
+	border-radius: 10px;
+	border: 1px solid orange;
+	color: white;
+	width: 80%;
+	height: 3rem;
+	outline: none;
+}
+.stop:hover button{
+	color: orange;
+	background-color: white;
+	outline: none;
+}
